@@ -6,12 +6,12 @@
 
 ### **Must Have (Required for Passing):**
 
-- [ ] HTML5 document structure (DOCTYPE, html, head, body)
-- [ ] Semantic HTML5 elements (header, nav, main, section, footer)
-- [ ] External CSS stylesheet properly linked
-- [ ] Meta description and title
-- [ ] Professional header with navigation menu
-- [ ] Hero section with compelling headline and call-to-action
+- [x] HTML5 document structure (DOCTYPE, html, head, body)
+- [x] Semantic HTML5 elements (header, nav, main, section, footer)
+- [x] External CSS stylesheet properly linked
+- [x] Meta description and title
+- [x] Professional header with navigation menu
+- [x] Hero section with compelling headline and call-to-action
 - [ ] At least 3 main content sections
 - [ ] Footer with contact information
 - [ ] CSS Box Model implementation (margin, padding, borders)

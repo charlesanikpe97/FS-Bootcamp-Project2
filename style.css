@@ -4,6 +4,8 @@ body {
     font-family: 'Inter', sans-serif;
 }
 
+/* Navbar */
+
 header {
     width: 80%;
     margin-top: 0;
@@ -42,5 +44,96 @@ nav {
 
 nav > ul > li {
     list-style: none;
+}
+
+
+/* Hero/Home  */
+
+main {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    margin-top: 12rem;
+}
+
+.hero {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+
+}
+
+.cta {
+    width: 50%;
+    margin-left: 5%;
+
+}
+
+.cta > h2 {
+    font-size: 5rem;
+    padding-top: 0;
+    margin-top: 0;
+    margin-bottom: 5%;
+}
+
+.cta > p {
+    font-size: 1.6rem;
+    color: #687488;
+    margin-top: 0;
+    line-height: 3rem;
+    
+}
+
+.buttons {
+    width: 80%;
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 2rem;
+    font-weight: bold;
+}
+
+#gs {
+    background-color: #2b5ce1;
+    color: white;
+    padding: 1.5rem;
+    width: 30%;
+    border-radius: 10px;
+    text-decoration-style: solid;
+    border-color: #2b5ce1;
+}
+
+#gs > span {
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+
+#lm {
+    background-color: white;
+    color: #2b5ce1;
+    padding: 1.5rem;
+    width: 30%;
+    border-radius: 10px;
+    border-color: #2b5ce1;
+    border-width: 3px;
+}
+
+#lm > span {
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.image{
+    width: 20%;
+    align-self: center;
+    border-radius: 10px;
+}
+
+.image > img {
+    object-fit: fill;
+    border-radius: 10px;
 }
 
