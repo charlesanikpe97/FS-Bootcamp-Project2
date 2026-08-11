@@ -271,3 +271,74 @@ main {
     border-radius: 15px;
 }
 
+
+
+/* Footer */
+
+footer {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #1d2533;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+}
+
+#topFoot {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 10rem;
+    /* align-items: baseline; */
+}
+
+#topFoot > div {
+   margin-left: 0;
+   padding-left: 0;
+}
+
+#topFoot > div > h5 {
+    font-size: 1.1rem;
+    color: white;
+}
+
+#topFoot > div > #footLogo {
+color: #2b5ce1;
+
+}
+
+#topFoot > div > p {
+    color: gray;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+#topFoot > div > ul {
+    list-style: none;
+    font-size: 1rem;
+    font-weight: 500;
+    color: gray;
+    padding-left: 0;
+}
+
+#topFoot > div > ul > li:nth-child(2) {
+padding-top: 15%;    
+}
+
+#topFoot > div > ul > li:last-child {
+    padding-top: 15%; 
+}
+
+hr {
+    color: gray;
+    width: 100%;
+}
+
+#copyright {
+    color: gray;
+    font-size: 1rem;
+    font-weight: 500;
+}
