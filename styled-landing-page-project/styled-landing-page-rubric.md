@@ -12,15 +12,15 @@
 - [x] Meta description and title
 - [x] Professional header with navigation menu
 - [x] Hero section with compelling headline and call-to-action
-- [ ] At least 3 main content sections
-- [ ] Footer with contact information
-- [ ] CSS Box Model implementation (margin, padding, borders)
-- [ ] Flexbox layout for at least one major component
+- [x] At least 3 main content sections
+- [x] Footer with contact information
+- [x] CSS Box Model implementation (margin, padding, borders)
+- [x] Flexbox layout for at least one major component
 - [ ] Color scheme using multiple formats (hex, RGB, named)
-- [ ] Typography styling (font-family, font-size, font-weight)
-- [ ] Proper heading hierarchy (h1, h2, h3)
-- [ ] Images with descriptive alt text
-- [ ] Working internal navigation links (external links if any can be blank)
+- [x] Typography styling (font-family, font-size, font-weight)
+- [x] Proper heading hierarchy (h1, h2, h3)
+- [x] Images with descriptive alt text
+- [x] Working internal navigation links (external links if any can be blank)
 - [ ] Multiple responsive breakpoints (media queries) (mobile (<768), tablet(768-1024), desktop) (no overlapping or hidden elements on tablet, mobile, desktop)
 - [ ] Mobile looks good (no overlapping elements, cut off text, hidden images) at 350+ px width on viewport
 - [ ] HTML and CSS validation passing (no errors or warnings (info are ok)) (https://validator.w3.org/nu/#textarea)
