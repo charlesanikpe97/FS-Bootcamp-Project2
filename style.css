@@ -37,14 +37,30 @@ nav {
     width: 50%;
     gap: 1rem;
     font-size: 1.5rem;
-    font-weight:normal;
+    font-weight:500;
     
     
 }
 
 nav > ul > li {
     list-style: none;
+    
 }
+
+nav > ul > li > a {
+    text-decoration: none;
+    color: black;
+}
+
+nav > ul > li :hover {
+    color: #2b5ce1;
+    text-decoration:underline;
+    
+}
+
+
+
+
 
 
 /* Hero/Home  */
@@ -63,8 +79,11 @@ main {
     margin-left: auto;
     margin-right: auto;
     display: flex;
+    gap: 10%;
 
 }
+
+
 
 .cta {
     width: 50%;
@@ -100,6 +119,7 @@ main {
     color: white;
     padding: 1.5rem;
     width: 30%;
+    min-width: 30%;
     border-radius: 10px;
     text-decoration-style: solid;
     border-color: #2b5ce1;
@@ -116,6 +136,7 @@ main {
     color: #2b5ce1;
     padding: 1.5rem;
     width: 30%;
+    min-width: 30%;
     border-radius: 10px;
     border-color: #2b5ce1;
     border-width: 3px;
@@ -127,7 +148,8 @@ main {
 }
 
 .image{
-    width: 20%;
+    width: 100%;
+    height: 20%;
     align-self: center;
     border-radius: 10px;
 }
@@ -135,6 +157,8 @@ main {
 .image > img {
     object-fit: fill;
     border-radius: 10px;
+    width: 100%;
+    height: 100%;
 }
 
 
@@ -195,6 +219,9 @@ main {
     font-weight: 500;
     color:gray;
     padding-bottom: 10%;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 
@@ -207,12 +234,13 @@ main {
     margin-right: auto;
     display: flex;
     margin-top: 6rem;
-    gap: 2rem;
+    gap: 4rem;
     padding-bottom: 5%;
+    
 }
 
 .about_details {
-    width: 60%;
+    width: 90%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -260,7 +288,8 @@ main {
 
 
 .about_image {
-    width: 20%;
+    width: 100%;
+    height: 20%;
     align-self: center;
     border-radius: 15px;
 
@@ -269,6 +298,8 @@ main {
 #lastImg {
     object-fit: fill;
     border-radius: 15px;
+    width: 100%;
+    
 }
 
 
@@ -342,3 +373,87 @@ hr {
     font-size: 1rem;
     font-weight: 500;
 }
+
+
+/* Tablet Media Query */
+
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    header {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #navStyle {
+        gap: 2rem;
+    }
+
+    .hero {
+        flex-direction: column;
+
+    }
+
+    main {
+        margin-top: 6rem;
+    }
+
+    .cta {
+        width: 100%;
+    }
+
+    .cta > h2 {
+        font-size: 2.6rem;
+    }
+
+    .cta > p {
+        width: 80%;
+        font-size: 1.4rem;
+    }
+
+    .buttons {
+       justify-content: center;
+       width: 100%; 
+    }
+
+    .image {
+        width: 60%;
+    }
+
+    .features_details {
+        flex-wrap: wrap;
+        width: 80%;
+        margin-left: 0;
+        margin-right: 0;
+        justify-content: flex-start;
+
+
+    }
+
+    .details_style {
+        width: 45%;
+    }
+
+    .about {
+        flex-direction: column;
+    }
+    
+
+    .about_details > p {
+        text-align: center;
+    }
+
+    .about_image {
+        width: 40%;
+        align-self: self-start;
+        padding-bottom: 3rem;
+    }
+
+    #topFoot {
+        flex-wrap: wrap;
+        width: 80%;
+    }
+}
+
+
+/* Mobile Phone Media Query */
+
