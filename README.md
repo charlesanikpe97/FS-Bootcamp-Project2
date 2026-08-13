@@ -81,7 +81,7 @@ The project includes foundational accessibility practices such as:
 
 Add your deployed project link here:
 
-**Live Site:** *Coming soon*
+**Live Site:** *https://charlesanikpe97.github.io/FS-Bootcamp-Project2/*
 
 ## Repository
 
